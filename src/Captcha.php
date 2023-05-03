@@ -148,7 +148,7 @@ class Captcha
     public function check(string $code, string $hash): bool
     {
 
-        if ($this->cache->get('captchaApi.' . $hash)) {
+        if (!$this->cache->get('captchaApi.' . $hash)) {
             return false;
         }
 
