@@ -1,7 +1,7 @@
 {
     "name": "betka/php-captcha",
-    "description": "captcha package for thinkphp",
-    "minimum-stability":"v1.0.0",
+    "description": "captcha package for thinkphp,api capthca!",
+    "minimum-stability":"stable",
     "authors": [
         {
             "name": "betka999",
