@@ -1,9 +1,10 @@
 {
     "name": "betka/php-captcha",
     "description": "captcha package for thinkphp",
+    "minimum-stability":"v1.0.0",
     "authors": [
         {
-            "name": "betka",
+            "name": "betka999",
             "email": "hbwzzjk1107@163.com"
         }
     ],
