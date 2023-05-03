@@ -1,0 +1,31 @@
+{
+    "name": "betka/php-captcha",
+    "description": "captcha package for thinkphp",
+    "authors": [
+        {
+            "name": "betka",
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "topthink/framework": "^6.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "betka\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "betka\\captcha\\CaptchaService"
+            ],
+            "config":{
+                "captcha": "src/config.php"
+            }            
+        }
+    }
+}
