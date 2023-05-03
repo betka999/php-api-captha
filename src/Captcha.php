@@ -6,6 +6,7 @@ use Exception;
 use think\Config;
 use think\Response;
 use think\Session;
+use think\Cache;
 
 class Captcha
 {
