@@ -9,6 +9,6 @@ class CaptchaController
         $data = $captcha->create($config);
         if(config('my_env')=='pro')
             unset($data['code']);
-        return $data;
+        return toTrue($data);
     }
 }
