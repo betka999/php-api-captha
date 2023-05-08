@@ -36,4 +36,7 @@ return [
     //     'length'=>4,
     //    ...
     //],
+
+    //取消code环境env
+    'unsetCodeEnv'=>'pro',
 ];
